@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/stylesheets/stylesheet.css">
+</head>
+
+<body>
+  <div class="container">
+    <table class="table table-dark" id="channelTable">
+      <thead>
+        <tr>
+          <th scope="col">Channel #</th>
+          <th scope="col">Program</th>
+        </tr>
+      </thead>
+      <!-- Table body scrolls, table head remains still -->
+      <tbody id="channelTableBody">
+        <tr rel="channel1" class="channel">
+          <th scope="row">Channel 1</th>
+          <td>First Portfolio</td>
+        </tr>
+        <tr rel="channel2" class="channel">
+          <th scope="row">Channel 2</th>
+          <td>First JavaScript Assignment</td>
+        </tr>
+        <tr rel="channel3" class="channel">
+          <th scope="row">Channel 3</th>
+          <td>Rock, Paper, Scissors</td>
+        </tr>
+        <tr rel="channel4" class="channel">
+          <th scope="row">Channel 4</th>
+          <td>Star Wars RPG (jQuery)</td>
+        </tr>
+        <tr rel="channel5" class="channel">
+          <th scope="row">Channel 5</th>
+          <td>Harry Potter Giftastic (APIs)</td>
+        </tr>
+        <tr rel="channel6" class="channel">
+          <th scope="row">Channel 6</th>
+          <td>Word Guess Game (Timers)</td>
+        </tr>
+        <tr rel="channel7" class="channel">
+          <th scope="row">Channel 7</th>
+          <td>Train Scheduler (Firebase Database)</td>
+        </tr>
+        <tr rel="channel8" class="channel">
+          <th scope="row">Channel 8</th>
+          <td>Nite Out Project</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="channel1" class="panel">
+      First Portfolio
+    </div>
+    <div id="channel2" class="panel">
+      First JavaScript Assignment
+    </div>
+    <div id="channel3" class="panel">
+      Rock, Paper, Scissors
+    </div>
+    <div id="channel4" class="panel">
+      Star Wars RPG
+    </div>
+    <div id="channel5" class="panel">
+      Harry Potter Giftastic
+    </div>
+    <div id="channel6" class="panel">
+      Word Guess Game
+    </div>
+    <div id="channel7" class="panel">
+        Train Scheduler
+    </div>
+    <div id="channel8" class="panel">
+        Nite Out Project
+    </div>
+    <div class="col-6" id="channelDisplay" class="panel active">
+      This is the channelDisplay
+    </div>
+  </div>
+</body>
+
+</html>
