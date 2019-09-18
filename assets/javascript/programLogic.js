@@ -49,7 +49,7 @@ $('.container #channelTable #channelTableBody .channel').on('click', function ()
   var channelToShow = $(this).attr('rel');
 
   //hide current panel
-  $panel.find('.channel.active').slideUp(300, showNextChannel;
+  $panel.find('.channel.active').slideUp(300, showNextChannel);
 
   //show next panel
   function showNextChannel() {
